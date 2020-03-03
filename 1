@@ -1,0 +1,24 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+wilder@wilder-ThinkPad-T440p:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+wilder@wilder-ThinkPad-T440p:~$ cd /documents
+bash: cd: /documents: No such file or directory
+wilder@wilder-ThinkPad-T440p:~$ cd Music
+wilder@wilder-ThinkPad-T440p:~/Music$ pwd
+/home/wilder/Music
+wilder@wilder-ThinkPad-T440p:~/Music$ ls
+wilder@wilder-ThinkPad-T440p:~/Music$ ls
+wilder@wilder-ThinkPad-T440p:~/Music$ cd ..
+wilder@wilder-ThinkPad-T440p:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+wilder@wilder-ThinkPad-T440p:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T440p:~$ cd ..
+wilder@wilder-ThinkPad-T440p:/home$ pwd
+/home
+wilder@wilder-ThinkPad-T440p:/home$ ls
+wilder
